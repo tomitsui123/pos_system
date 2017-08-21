@@ -1,0 +1,19 @@
+{
+  "name": "pos_system",
+  "version": "1.0.0",
+  "main": "route.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "hapi": "^16.5.2",
+    "hapi-node-postgres": "^4.1.0",
+    "hapi-postgres-connection": "^6.4.0",
+    "is-empty": "^1.2.0",
+    "pg": "^6.4.2",
+    "pg-native": "^2.0.1"
+  }
+}
