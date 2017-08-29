@@ -1,0 +1,67 @@
+.with-border {
+  border: 1px solid grey;
+}
+
+.content {
+  min-height: 550px;
+}
+
+.layout {
+  height: 100%;
+  position: relative
+}
+
+.total > div {
+  border: 1px solid grey;
+  margin: 3px;
+}
+
+.menu-row {
+  margin: 0 5px;
+}
+
+.menu-row .box {
+  min-height: 80px;
+  border: 1px solid grey;
+}
+
+.box {
+  padding: 15px;
+  margin: 8px 0;
+}
+
+.item-detail {
+  text-align: center;
+}
+
+.active {
+  color: white !important;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.tab-pan {
+  margin: 10px;
+}
+
+.lumsum {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  min-width: 97%;
+  min-height: 50px;
+  border-top: 1px solid !important;
+  border-bottom: 0px solid !important;
+  border-left: 0 !important;
+  border-right: 0 !important;
+}
+
+.detail {
+  min-height: 80%;
+}
+
+.detail table {
+  width: 100%;
+}
