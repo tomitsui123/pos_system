@@ -1,144 +1,147 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>POS system</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-  <link rel="stylesheet" href="main.css">
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <title>POS system</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 </head>
+
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light orange">
-  <div class="navbar-brand">POS</div>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-</nav>
-  <div class="container-fluid">
-    <div class="row content">
-      <div class="col-md-3">
-        menu
-        <div class="layout total">
-          <div class="detail">
-            <table class="text-center">
-              <thead>
-                <th class="col-sm-2 text-center"></th>
-                <th class="col-sm-8 text-center">Item</th>
-                <th class="col-sm-2 text-center">Price</th>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>
-                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-                  </td>
-                  <td>meat</td>
-                  <td>123</td>
-                </tr>
-                <tr>
-                  <td>
-                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-                  </td>
-                  <td>meat</td>
-                  <td>123</td>
-                </tr>
-                <tr>
-                  <td>
-                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-                  </td>
-                  <td>meat</td>
-                  <td>123</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <div class="lumsum row">
-            <div class="col-sm-9">Total:</div>
-            <div class="col-sm-3">
-              <span class="pull-right">0</span>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light orange">
+        <div class="navbar-brand">POS</div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+    <div class="container-fluid">
+        <div class="row content">
+            <div class="col-md-3">
+                menu
+                <div class="layout total">
+                    <div class="detail">
+                        <table class="text-center">
+                            <thead>
+                                <th class="col-sm-2 text-center"></th>
+                                <th class="col-sm-8 text-center">Item</th>
+                                <th class="col-sm-2 text-center">Price</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <span class="glyphicon glyphicon-remove" aria-hidden="true" onclick="removeRow(this)"></span>
+                                    </td>
+                                    <td>meat</td>
+                                    <td class="price">123</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="glyphicon glyphicon-remove" aria-hidden="true" onclick="removeRow(this)"></span>
+                                    </td>
+                                    <td>meat</td>
+                                    <td class="price">123</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="glyphicon glyphicon-remove" aria-hidden="true" onclick="removeRow(this)"></span>
+                                    </td>
+                                    <td>meat</td>
+                                    <td class="price">123</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="lumsum row">
+                        <hr/>
+                        <div class="col-sm-9">Total:</div>
+                        <div class="col-sm-3">
+                            <span class="pull-right">0</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="col-md-9">
+                content
+                <div class="with-border layout menu">
+                    <div class="tab-pan">
+                        <ul class="nav nav-pills">
+                            <li class="nav-item">
+                                <a class="active nav-link" id="overview" data-toggle="tab" onclick="filter(this)">Overview</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="meat" data-toggle="tab" onclick="filter(this)">Meat</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="drink" data-toggle="tab" onclick="filter(this)">Drink</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="other" data-toggle="tab" onclick="filter(this)">Other</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row menu-row">
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="col-md-9">
-        content
-        <div class="with-border layout menu">
-          <div class="tab-pan">
-            <ul  class="nav nav-pills">
-              <li class="nav-item">
-                <a class="active nav-link" id="overview" data-toggle="tab" onclick="filter(this)">Overview</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="meat" data-toggle="tab" onclick="filter(this)">Meat</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="drink" data-toggle="tab" onclick="filter(this)">Drink</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="other" data-toggle="tab" onclick="filter(this)">Other</a>
-              </li>
-            </ul>
-          </div>
-          <div class="row menu-row">
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
 </body>
 <script type="text/javascript">
-  var items = [
-    {
+var items = [
+  {
+    type: "meat",
+    item: "meat",
+    price: 10
+  },
+  {
       type: "meat",
       item: "meat",
-      price:10
-    },
-    {
+      price: 20
+  },
+  {
       type: "meat",
       item: "meat",
-      price:20
-    },
-    {
+      price: 30
+  },
+  {
       type: "meat",
       item: "meat",
-      price:30
-    },
-    {
-      type: "meat",
-      item: "meat",
-      price:40
-    },
-    {
+      price: 40
+  },
+  {
       type: "drink",
       item: "meat",
-      price:10
-    },
-    {
+      price: 10
+  },
+  {
       type: "other",
       item: "meat",
-      price:10
-    },
-    {
+      price: 10
+  },
+  {
       type: "drink",
       item: "meat",
-      price:10
-    },
-    {
+      price: 10
+  },
+  {
       type: "drink",
       item: "meat",
-      price:10
-    }
-  ]
+      price: 10
+  }
+]
 
-  function renderContent(renderItem) {
+function renderContent(renderItem) {
     renderItem.forEach(e => {
-      $(".menu-row").append(`
+        $(".menu-row").append(`
         <div class="col-sm-3">
-          <div class="box">
+          <div class="box" onclick="addToTotal(this)">
             <div class="item-detail ${e.type}">
               <div class="item">${e.item}</div>
               <div class="price">${e.price}</div>
@@ -147,19 +150,52 @@
         </div>
       `)
     })
-  }
-  function filter(e) {
+}
+
+function filter(e) {
     var id = $(e).attr("id");
     $(".menu-row .col-sm-3").remove();
     if (id !== "overview") {
-      renderContent(items.filter(e => e.type === id));
+        renderContent(items.filter(e => e.type === id));
     } else {
-      renderContent(items);
+        renderContent(items);
     }
-  }
-  function calculateTotal() {
-    
-  }
-  renderContent(items);
+}
+
+function calculateTotal() {
+    var sum = 0;
+    $(".detail .price").each((i, val) => {
+        var self = $(val);
+        sum += parseInt(self.text(), 10);
+    })
+    $(".lumsum .col-sm-3").text(sum);
+    console.log(sum);
+}
+
+function addToTotal(item) {
+  console.log();
+  $(".detail tbody").append(`
+    <tr>
+      <td>
+        <span class="glyphicon glyphicon-remove" aria-hidden="true" onclick="removeRow(this)"></span>
+      </td>
+      <td>${$(item).find(".item").text()}</td>
+      <td class="price">${$(item).find(".price").text()}</td>
+    </tr>
+  `);
+  calculateTotal();
+}
+
+function removeRow(item) {
+  $(item).closest("tr").remove();
+  calculateTotal();
+}
+
+$(".detail tbody tr").on('click', 'td:nth-child(1)', (val) => {
+  
+})
+renderContent(items);
+calculateTotal();
 </script>
+
 </html>
